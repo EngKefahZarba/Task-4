@@ -6,13 +6,46 @@
  html{
     font-family: "Roboto", sans-serif;
  }
-.bg-color{
-    background-color: #3fbabf;
-    border: none;
+:root{
+    --color:#3fbabf;
 }
-.navbar-nav a:hover{
-    color: #3fbabf;
+.first_navbar{
+    background-color: var(--color);
 }
-.nav1-font-size{
-font-size: 10px;
+.the_logo{
+    width: 120px;
+    height: 35px;
+}
+.the-btn{
+    background-color: var(--color);
+}
+.the-btn:hover{
+    background-color: black;
+}
+.nav-item a:hover{
+    color: var(--color);
+}
+.hero
+{
+    height: calc(100vh - 100px);
+}
+.the_img{
+    object-fit: cover;  
+    height: calc(100vh - 100px); 
+}
+.line{
+    height: 2px;
+    width: 50px;
+    background-color: var(--color);
+    border-radius: 8px;
+}
+.the_icon{
+    font-size: 25px;
+    color: var(--color);
+}
+#Contact i{
+    color: var(--color);
+    background-color: white;
+    border: 1px dashed var(--color);
+    border-radius: 50%;
 }
